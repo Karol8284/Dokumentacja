@@ -1,13 +1,10 @@
-### Profesjonalny szablon README.md (gotowy do wklejenia)
-
-Poniżej masz dopracowany, uniwersalny szablon README w języku polskim — wystarczy podmienić fragmenty oznaczone **WSTAW_...**. Zachowałem przejrzystą strukturę, badge, spis treści, przykłady instalacji i listę kontrolną przed publikacją.
-
----
-
+### Szablon własny README.md (gotowy do wklejenia)
 ```markdown
-# **WSTAW_TUTAJ_NAZWA_PROJEKTU**
+# **NAZWA_PROJEKTU**
 
-**Krótki opis projektu.** W jednej lub dwóch zdaniach: co robi projekt i dla kogo jest przeznaczony.
+**Krótki opis projektu.**
+W jednej lub dwóch zdaniach:
+co robi projekt i dla kogo jest przeznaczony, z czego kożysta.
 
 ---
 
@@ -34,12 +31,15 @@ Poniżej masz dopracowany, uniwersalny szablon README w języku polskim — wyst
 ---
 
 ## Opis
-**Szczegółowy opis projektu.** Wyjaśnij problem, który rozwiązujesz, główne cechy i krótkie porównanie z alternatywami (jeśli istnieją). Wymień kluczowe zalety i typowe scenariusze użycia.
+**Szczegółowy opis projektu.**
+Wyjaśnienie co projekt ma na celu robić, do czego dążyć.
+Zapisanie Wad i zalet
 
 ---
 
 ## Szybki start
-**Najprostszy przykład użycia** — pokazuje jak szybko uruchomić i zobaczyć efekt.
+**Najprostszy przykład użycia**
+- pokazuje jak wywołąć i uruchomić program.
 
 ```bash
 # instalacja (przykład)
@@ -75,7 +75,8 @@ Console.WriteLine(result);
 ---
 
 ## Użycie
-**Kilka praktycznych przykładów**: podstawowe, zaawansowane, obsługa błędów.
+**Kilka praktycznych przykładów**: 
+podstawowe, zaawansowane, obsługa błędów.
 
 ```csharp
 // podstawowy
@@ -83,7 +84,7 @@ var sum = Algebra.Add(5, 3);
 
 // edge case
 try {
-    var bad = Algebra.Divide(1, 0);
+    var bad = Math.Sum(1, 0);
 } catch (DivideByZeroException ex) {
     Console.WriteLine("Błąd: " + ex.Message);
 }
